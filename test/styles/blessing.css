@@ -1,0 +1,2401 @@
+#aboutContainer {
+    background: rgb(255,255,255);
+}
+
+#teamContainer {
+    background: rgb(255,255,255);
+}
+
+#headerContent {
+    color: white;
+    overflow: hidden;
+    word-break: break-word;
+}
+
+#headerOuterRow {
+    display: flex;
+}
+
+#iconSide {
+    text-align: center;
+}
+
+#headerTitle {
+    font-size: 105px;
+}
+
+#headerSubtitle {
+    font-style: italic;
+}
+
+#titleSide {
+    text-align: right;
+}
+
+.titleSubtitle {
+    text-transform: uppercase;
+}
+
+.headerButton {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 40px;
+    padding: 10px 60px;
+    background-color: transparent;
+    border-radius: 25px;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: 0.5s;
+    display: inline-block;
+}
+
+.headerButton:hover {
+    color: rgb(228,77,62);
+    background-color: white;
+    text-decoration: none;
+}
+
+#iconContainer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    min-width: 174px;
+}
+
+.headerIcon {
+    margin: 2%;
+    opacity: 1.0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.headerIcon:hover {
+    opacity: 0.5;
+}
+
+header .customTitle {
+    font-size: 30px;
+    display: inline-block;
+}
+
+header .customParagraph {
+    font-size: 20px;
+}
+
+header .customLink,
+header .customLink a {
+    color: white;
+    font-size: 20px;
+    width: 100%;
+}
+
+header .customLink:hover {
+    color: rgba(255,255,255,0.5);
+    text-decoration: none;
+}
+
+header .customIcon {
+    font-size: 36px;
+}
+
+header .customTitle,
+header .customParagraph,
+header .customLink,
+header .customIcon,
+header .customButton,
+header .customImage,
+header .customEmbed {
+    margin: 10px 0;
+}
+
+header #headerSubtitleWrap .customTitle,
+header #headerSubtitleWrap .customParagraph,
+header #headerSubtitleWrap .customLink,
+header #headerSubtitleWrap .customIcon,
+header #headerSubtitleWrap .customButton,
+header #headerSubtitleWrap .customImage,
+header #headerSubtitleWrap .customEmbed {
+    margin: 10px 0 0;
+}
+
+header #headerButtons .customTitle,
+header #headerButtons .customParagraph,
+header #headerButtons .customLink,
+header #headerButtons .customIcon,
+header #headerButtons .customButton,
+header #headerButtons .customImage,
+header #headerButtons .customEmbed {
+    margin: 25px 0 0;
+}
+
+header #iconContainer .customTitle,
+header #iconContainer .customParagraph,
+header #iconContainer .customLink,
+header #iconContainer .customIcon,
+header #iconContainer .customButton,
+header #iconContainer .customImage,
+header #iconContainer .customEmbed {
+    margin: 10px 0 0;
+}
+
+@media only screen and (max-width : 767px) {
+
+    #headerOuterRow {
+        display: initial;
+    }
+
+    #titleSide {
+        text-align: center;
+    }
+    
+    #headerTitle {
+        font-size: 54px;
+    }
+
+    #headerSubtitle {
+        font-size: 20px;
+    }
+
+    header .customTitle {
+        font-size: 25px;
+    }
+
+    header .customParagraph {
+        font-size: 18px;
+    }
+
+    header .customLink a {
+        font-size: 18px;
+    }
+}
+
+
+
+#about {
+    color: black;
+}
+
+#about .aboutImageBg {
+    color: white;
+}
+
+#aboutTop {
+    text-align: center;
+}
+
+#aboutTitleWrap {
+    margin-bottom: 18px;
+}
+
+#aboutTitle {
+    font-size: 36px;
+    margin: 0 0 10px;
+}
+
+#aboutSubtitleWrap {
+    margin-bottom: 30px;
+}
+
+#aboutSubtitle {
+    margin: 0 10px;
+}
+
+#aboutBottom {
+    margin-bottom: 64px;
+    display: flex;
+}
+
+#aboutImage1 {
+    text-align: right;
+}
+
+.aboutImages {
+    width: 100%;
+}
+
+#about .aboutImageBg .aboutImages {
+    border: 2px solid white;
+}
+
+#aboutInfo {
+    padding: 48px 20px;
+}
+
+.aboutParagraph {
+    line-height: 1.65;
+    font-size: 16px;
+}
+
+#aboutButtons {
+    margin-top: 58px;
+    text-align: right;
+}
+
+.aboutButton {
+    color: black;
+    padding: 6px 42px;
+    border: 2px solid black;
+    border-radius: 25px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+.aboutButton:focus {
+    color: black;
+}
+
+.aboutButton:hover {
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+    text-decoration: none;
+}
+
+#about .aboutImageBg .aboutButton {
+    color: white;
+    border-color: white;
+}
+
+#about .aboutImageBg .aboutButton:hover {
+    color: black;
+    background-color: rgba(255,255,255,0.7);
+}
+
+#about .customTitle {
+    font-size: 36px;
+    display: block;
+}
+
+#about .customParagraph {
+    font-size: 16px;
+    line-height: 1.65;
+    display: block;
+}
+
+#about .customLink {
+    color: black;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+}
+
+#about .aboutImageBg .customLink {
+    color: white;
+}
+
+#about .customLink:hover {
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+#about .customIcon {
+    font-size: 36px;
+}
+
+#about .customTitle,
+#about .customParagraph,
+#about .customLink,
+#about .customIcon,
+#about .customButton,
+#about .customImage,
+#about .customEmbed {
+    margin: 10px 0;
+}
+
+#about #aboutButtons .customTitle,
+#about #aboutButtons .customParagraph,
+#about #aboutButtons .customLink,
+#about #aboutButtons .customIcon,
+#about #aboutButtons .customButton,
+#about #aboutButtons .customImage,
+#about #aboutButtons .customEmbed {
+    margin: 20px 0 0;
+}
+
+#about #aboutSubtitleWrap .customIcon,
+#about #aboutSubtitleWrap .customButton {
+    margin: 15px 0 0;
+}
+
+@media only screen and (max-width : 1050px) {
+
+    #aboutInfo {
+        padding: 20px;
+    }
+
+    .aboutParagraph {
+        line-height: 1.55;
+    }
+
+    #about .customParagraph {
+        line-height: 1.55;
+    }
+}
+
+@media only screen and (max-width : 800px) {
+
+    .aboutParagraph {
+        line-height: normal;
+        font-size: 14px;
+    }
+
+    #aboutButtons {
+        margin-top: 40px;
+    }
+
+    #about .customParagraph {
+        line-height: normal;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width : 767px) {
+
+    #aboutContent {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    #aboutImage1 {
+        text-align: left;
+    }
+
+    #aboutBottom {
+        display: initial;
+    }
+
+    .aboutParagraph {
+        line-height: 1.5;
+        font-size: 14px;
+    }
+
+    #about .customParagraph {
+        line-height: 1.5;
+        font-size: 14px;
+    }
+
+    #about .customEmbed iframe {
+        width: 100%;
+    }
+
+    #about #aboutTitleWrap .customEmbed iframe,
+    #about #aboutSubtitleWrap .customEmbed iframe {
+        padding: 0 15px;
+    }
+}
+
+
+
+
+#features {
+    color: black;
+    word-break: break-word;
+}
+
+#features .featuresImageBg {
+    color: white;
+}
+
+#featuresContent {
+    text-align: center;
+}
+
+#featuresTitle {
+    font-size: 38px;
+    letter-spacing: .05em;
+}
+
+#featuresSubtitleWrap {
+    margin-bottom: 25px;
+}
+
+.features4 {
+    display: flex;
+}
+
+.featuresHeader {
+    font-size: 24px;
+}
+
+.featuresInfoOuter {
+    margin-top: 24px;
+    padding: 2px;
+}
+
+.featuresInfoWrap {
+    background-color: rgba(228,77,62,0.4);
+    text-shadow: 1px 1px 1px black;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+#features .featuresImageBg .featuresInfoWrap {
+    border: 2px solid white;
+}
+
+.featuresIcon {
+    color: black;
+    font-size: 35px;
+    text-shadow: none;
+    background-color: white;
+    border-radius: 3px;
+    padding: 14px;
+}
+
+#features .featuresImageBg .featuresIcon {
+    color: white;
+    background-color: transparent;
+}
+
+.featuresHr {
+    border: 2px solid white;
+    width: 50%;
+}
+
+#features .customTitle {
+    font-size: 38px;
+    letter-spacing: .05em;
+    display: block;
+}
+
+#features #featuresRowContainer .customTitle {
+    font-size: 16px;
+    letter-spacing: normal;
+}
+
+#features .customParagraph {
+    font-size: 16px;
+    display: block;
+}
+
+#features #featuresRowContainer .customParagraph {
+    font-size: 14px;
+}
+
+#features .customLink {
+    color: black;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+}
+
+#features #featuresRowContainer .customLink {
+    font-size: 14px;
+    color: white;
+}
+
+#features .featuresImageBg .customLink {
+    color: white;
+}
+
+#features .customLink:hover {
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+#features .customIcon {
+    font-size: 32px;
+}
+
+#features .customTitle,
+#features .customParagraph,
+#features .customLink,
+#features .customIcon, 
+#features .customButton,
+#features .customImage,
+#features .customEmbed {
+    margin: 10px 0;
+}
+
+#features .customIcon, 
+#features .customButton {
+    text-shadow: none;
+}
+
+#features #featuresTitleWrap .customIcon, 
+#features #featuresTitleWrap .customButton,
+#features #featuresTitleWrap .customImage {
+    margin: 0 0 5px;
+}
+
+#features .featuresHeaderWrap .customTitle,
+#features .featuresHeaderWrap .customParagraph,
+#features .featuresHeaderWrap .customLink,
+#features .featuresHeaderWrap .customEmbed {
+    margin: 10px 0 0;
+}
+
+#features .featuresHeaderWrap .customIcon, 
+#features .featuresHeaderWrap .customButton,
+#features .featuresHeaderWrap .customImage {
+    margin: 0;
+}
+
+#features .featuresIcons .customIcon, 
+#features .featuresIcons .customButton,
+#features .featuresIcons .customImage {
+    margin: 5px 0 0;
+}
+
+#features .featuresIcons .customTitle,
+#features .featuresIcons .customParagraph,
+#features .featuresIcons .customLink,
+#features .featuresIcons .customEmbed,
+#features .featuresHrWrap .customIcon, 
+#features .featuresHrWrap .customButton,
+#features .featuresHrWrap .customImage {
+    margin: 0 0 10px;
+}
+
+@media only screen and (max-width : 767px) {
+
+    #featuresTitle {
+        font-size: 30px;
+    }
+
+    .features4 {
+        display: grid;
+        margin: 0;
+    }
+}
+
+
+#featuresContainer {
+    background: url('/img/clothing-xmtFg-3oGQd-4EHLQ-T8hNS-Zv8Wa.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 60%;
+}
+
+
+#featuresContainer .customTitle {
+    color: white;
+    font-size: 50px;
+    margin: 0;
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: .05em;
+    line-height: 1.2;
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block; 
+}
+
+#gallery {
+    color: white;
+}
+
+#galleryContent {
+    background-color: rgba(228,77,62,0.5);
+    padding-bottom: 160px;
+}
+
+#gallery .galleryImageBg #galleryContent {
+    background-color: transparent;
+}
+
+#galleryContent {
+    word-wrap: break-word;
+    text-align: center;
+}
+
+#galleryTop {
+    text-align: left;
+}
+
+#galleryTitle {
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+    letter-spacing: .075em;
+}
+
+#gallerySubtitle {
+    font-style: italic;
+    font-size: 30px;
+    margin: 0 0 40px;
+}
+
+.categoryButtonContainer {
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.categoryButton {
+    font-size: 15px;
+    color: rgb(228,77,62);
+    padding: 6px 32px;
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid white;
+    margin: 5px;
+    transition: 0.4s;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.categoryButton:hover,
+.categoryButton:focus,
+.categoryButtonSelected {
+    color: rgb(228,77,62);
+    border: 2px solid rgb(228,77,62);
+    background-color: white;
+    text-decoration: none;
+}
+
+.galleryMainRow {
+    display: block;
+    margin-top: 40px;
+}
+
+.categoryFilter {
+    padding: 1px;
+}
+
+.galleryImage a {
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.galleryImage a:hover {
+    box-shadow: 0 0 10px 1px black;
+}
+
+#gallery .galleryImageBg .galleryImage a:hover {
+    box-shadow: 0 0 10px 1px white;
+}
+
+.fancybox {
+    padding: 0;
+}
+
+.galleryImages {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    border: 1px solid white;
+}
+
+#gallery .galleryImageBg .galleryImages {
+    border: 1px solid white;
+}
+
+#fancybox-title {
+    margin-left: 0 !important;
+    padding: 0;
+    background: white;
+}
+
+#fancybox-title-over {
+    font-size: 22px;
+    text-align: center;
+    color: black;
+}
+
+#fancybox-content {
+    border: none;
+    background: white;
+}
+
+#fancybox-close {
+    right: -35px;
+}
+
+#fancybox-right {
+    right: -20px;
+}
+
+#fancybox-bg-nw,
+#fancybox-bg-ne,
+#fancybox-bg-sw,
+#fancybox-bg-se {
+    display: none;
+}
+
+/* * * * * * * * * */
+
+#gallery .customTitle {
+    font-size: 40px;
+    letter-spacing: .075em;
+    display: block;
+}
+
+#gallery .customParagraph {
+    font-size: 18px;
+    display: block;
+}
+
+#gallery .customLink {
+    color: white;
+    font-size: 18px;
+    display: block;
+    width: 100%;
+}
+
+#gallery .customLink:hover {
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+#gallery .customIcon {
+    font-size: 32px;
+}
+
+#gallery .customTitle,
+#gallery .customParagraph,
+#gallery .customLink,
+#gallery .customIcon, 
+#gallery .customButton,
+#gallery .customImage,
+#gallery .customEmbed {
+    margin: 10px 0;
+}
+
+#gallery #categoryButtonContainer .customTitle,
+#gallery #categoryButtonContainer .customParagraph,
+#gallery #categoryButtonContainer .customLink,
+#gallery #categoryButtonContainer .customIcon, 
+#gallery #categoryButtonContainer .customButton,
+#gallery #categoryButtonContainer .customImage,
+#gallery #categoryButtonContainer .customEmbed {
+    margin: 0 0 20px 5px;
+}
+
+@media only screen and (max-width : 1050px) {
+
+    .galleryImages {
+        height: 250px;
+    }
+
+    .categoryButton {
+        padding: 6px 20px;
+    }
+
+    .galleryOverlay {
+        display: none;
+    }
+
+    #fancybox-left, #fancybox-right {
+        display: block !important;
+    }
+}
+
+@media only screen and (max-width : 800px) {
+
+    .galleryImages {
+        height: 200px;
+    }
+}
+                
+@media only screen and (max-width : 767px) {
+
+    #galleryTitle {
+        font-size: 40px;
+    }
+
+    #categoryButtonRow {
+        display: initial;
+    }
+
+    .galleryImages {
+        height: 350px;
+    }
+
+    #gallery #categoryButtonContainer .customTitle,
+    #gallery #categoryButtonContainer .customParagraph,
+    #gallery #categoryButtonContainer .customLink,
+    #gallery #categoryButtonContainer .customIcon, 
+    #gallery #categoryButtonContainer .customButton,
+    #gallery #categoryButtonContainer .customImage,
+    #gallery #categoryButtonContainer .customEmbed {
+        margin: 0 0 20px;
+    }
+
+    #gallery .customEmbed iframe {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width : 766px) {
+
+    .galleryImage a {
+        width: 100%;
+    }
+
+    .fancybox {
+        padding: 0 15px;
+    }
+}
+
+
+
+#testimonial {
+    color: black;
+}
+
+#testimonial .testimonialImageBg {
+    color: white;
+}
+
+#testimonialContent {
+    word-wrap: break-word;
+    padding-bottom: 120px;
+}
+
+#testimonialTitle {
+    font-size: 45px;
+    margin-bottom: 15px;
+    letter-spacing: .075em;
+}
+
+#testimonialSubtitleWrap {
+    margin-bottom: 20px;
+}
+
+#testimonialSubtitle {
+    font-size: 22px;
+    font-style: italic;
+}
+
+#testimonialHr {
+    border: 2px solid rgb(228,77,62);
+    width: 30%;
+}
+
+#testimonial .testimonialImageBg #testimonialHr {
+    border-color: white;
+}
+
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 30px;
+}
+
+#quote-carousel .carousel-control {
+    background: none;
+    color: rgb(228,77,62);
+    font-size: 35px;
+    text-shadow: none;
+    margin-top: 30px;
+}
+
+#testimonial .testimonialImageBg #quote-carousel .carousel-control {
+    color: white;
+}
+
+#quote-carousel .carousel-control.left {
+    left: -12px;
+    top: 30px;
+}
+
+#quote-carousel .carousel-control.right {
+    right: -12px;
+    top: 30px;
+}
+
+#quote-carousel .carousel-indicators {
+    bottom: -60px;
+}
+
+#quote-carousel .carousel-indicators li {
+    background: rgba(228,77,62,0.3);
+    height: 16px;
+    width: 50px;
+    border-radius: 5px;
+    margin: 8px 8px 0;
+}
+
+#quote-carousel .carousel-indicators .active {
+    background: rgb(228,77,62);
+}
+
+#testimonial .testimonialImageBg #quote-carousel .carousel-indicators .active {
+    background: white;
+}
+
+.testimonialCarouselIcons {
+    cursor: pointer;
+}
+
+.item blockquote {
+    border-left: none; 
+    margin: 0;
+}
+
+blockquote p:before {
+    display: none;
+}
+
+.testimonialCard {
+    color: white;
+    margin-top: 20px;
+    background-color: rgba(228,77,62,0.5);
+    border-radius: 10px;
+    padding: 25px 0 15px;
+}
+
+#testimonial .testimonialImageBg .testimonialCard {
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.testimonialParaWrap {
+    margin-bottom: 30px;
+}
+
+.testimonialParagraph {
+    text-align: justify;
+    text-align-last: center;
+    font-size: 18px;
+}
+
+.testimonialCardRow {
+    display: flex;
+}
+
+#testimonial .testimonialImageBg .testimonialParaWrap {
+    color: white;
+}
+
+.testimonialInfoIcon {
+    font-size: 28px;
+}
+
+.blockquoteSource {
+    color: white;
+    font-size: 28px;
+    display: block;
+}
+
+.testimonialImages {
+    width: 100%;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+#testimonial .testimonialImageBg .testimonialImages {
+    border: 1px solid white;
+}
+
+/* * * * * * * * */
+
+#testimonial .customTitle {
+    font-size: 40px;
+    display: block;
+}
+
+#testimonial .testimonialCard .customTitle {
+    font-size: 26px;
+}
+
+#testimonial .customParagraph {
+    font-size: 20px;
+    text-align: justify;
+    text-align-last: center;
+    display: block;
+}
+
+#testimonial .testimonialCard .customParagraph {
+    font-size: 18px;
+}
+
+#testimonial .testimonialCard .testimonialCardRow .customParagraph {
+    font-size: 16px;
+    text-align: center;
+}
+
+#testimonial .customLink {
+    color: black;
+    font-size: 20px;
+    display: block;
+    width: 100%;
+}
+
+#testimonial .testimonialCard .customLink {
+    font-size: 18px;
+}
+
+#testimonial .testimonialCard .testimonialCardRow .customLink {
+    font-size: 16px;
+}
+
+#testimonial .testimonialImageBg .customLink, 
+#testimonial .testimonialCard .customLink {
+    color: white;
+}
+
+#testimonial .customLink:hover {
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+#testimonial .customIcon {
+    font-size: 32px;
+}
+
+#testimonial .testimonialCardRow .customIcon {
+    font-size: 28px;
+}
+
+#testimonial .customTitle,
+#testimonial .customParagraph,
+#testimonial .customLink,
+#testimonial .customIcon,
+#testimonial .customButton,
+#testimonial .customImage,
+#testimonial .customEmbed {
+    margin: 10px 0;
+}
+
+#testimonial #testimonialTitleWrap .customIcon,
+#testimonial #testimonialTitleWrap .customButton,
+#testimonial #testimonialTitleWrap .customImage,
+#testimonial #testimonialHrWrap .customIcon,
+#testimonial #testimonialHrWrap .customButton,
+#testimonial #testimonialHrWrap .customImage,
+#testimonial .testimonialParagraphWrap .customTitle,
+#testimonial .testimonialParagraphWrap .customParagraph,
+#testimonial .testimonialParagraphWrap .customLink,
+#testimonial .testimonialParagraphWrap .customIcon,
+#testimonial .testimonialParagraphWrap .customButton,
+#testimonial .testimonialParagraphWrap .customImage,
+#testimonial .testimonialParagraphWrap .customEmbed,
+#testimonial .testimonialIcons .customTitle,
+#testimonial .testimonialIcons .customParagraph,
+#testimonial .testimonialIcons .customLink,
+#testimonial .testimonialIcons .customIcon,
+#testimonial .testimonialIcons .customButton,
+#testimonial .testimonialIcons .customImage,
+#testimonial .testimonialIcons .customEmbed,
+#testimonial .blockquoteSourceWrap .customTitle,
+#testimonial .blockquoteSourceWrap .customParagraph,
+#testimonial .blockquoteSourceWrap .customLink,
+#testimonial .blockquoteSourceWrap .customIcon,
+#testimonial .blockquoteSourceWrap .customButton,
+#testimonial .blockquoteSourceWrap .customImage,
+#testimonial .blockquoteSourceWrap .customEmbed {
+    margin: 0;
+}
+
+#testimonial #testimonialSubtitleWrap .customIcon,
+#testimonial #testimonialSubtitleWrap .customButton,
+#testimonial #testimonialSubtitleWrap .customImage {
+    margin: 0 0 10px;
+}
+
+#testimonial .testimonialImage .customTitle,
+#testimonial .testimonialImage .customParagraph,
+#testimonial .testimonialImage .customLink,
+#testimonial .testimonialImage .customIcon,
+#testimonial .testimonialImage .customButton,
+#testimonial .testimonialImage .customImage,
+#testimonial .testimonialImage .customEmbed {
+    margin: 10px 0 0;
+}
+
+@media (max-width: 767px) { 
+
+    #testimonialTitle {
+        font-size: 30px;
+    }
+    
+    #testimonialSubtitle {
+        font-size: 18px;
+    }
+
+    .blockquoteSource {
+        font-size: 20px;
+    }
+
+    #quote-carousel .carousel-indicators {
+        bottom: -88px;
+    }
+
+    #quote-carousel .carousel-control.left {
+        top: 60px;
+    }
+
+    #quote-carousel .carousel-control.right {
+        top: 60px;
+    }
+}
+
+#testimonialContainer {
+    background: url('/img/clothing-d7kpw-owW1L-J68Iu-u9PTi-RMlO9.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 50px 0;
+    color: white;
+    margin-bottom: 50px;
+}
+
+#testimonialContainer .customTitle {
+    font-size: 40px;
+    display: block;
+}
+
+#testimonialContainer .customParagraph {
+    font-size: 20px;
+    text-align: justify;
+    text-align-last: center;
+    display: block;
+}
+
+
+
+#team {
+    color: black;
+}
+
+#team .teamImageBg {
+    color: white;
+}
+
+#teamContent {
+    word-wrap: break-word;
+}
+
+#teamTop {
+    text-align: center;
+}
+
+#teamTitle {
+    font-size: 48px;
+    letter-spacing: .035em;
+}
+
+#teamTitleHr {
+    border: .5px solid rgb(228,77,62);
+    margin: 30px 0;
+}
+
+#team .teamImageBg #teamTitleHr {
+    border-color: white;
+}
+
+.teamParagraphs {
+    font-size: 16px;
+    line-height: 1.9;
+}
+
+.team2 {
+    /* display: flex; */
+    margin: 0;
+}
+
+.teamMemberRow {
+    display: flex;
+    margin: 60px 20px 0;
+    padding: 15px 0;
+    background-color: white;
+    color: black;
+    box-shadow: 0 2px 6px 0px rgb(228,77,62);
+}
+
+.teamMemberImages {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+
+.teamMemberInfoOuter {
+    padding: 0 10px;
+}
+
+.teamMemberName {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.teamMemberTitle {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.teamIconRow {
+    text-align: left;
+    margin: 20px 0;
+}
+
+.teamIcon {
+    color: white;
+    display: inline;
+    background-color: rgb(228,77,62);
+    border-radius: 50%;
+    margin-right: 8px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.teamIcon:hover {
+    opacity: 0.6;
+}
+
+.teamFacebook {
+    padding: 8px 12px;
+}
+
+.teamTwitter {
+    padding: 8px 9px;
+}
+
+.teamLinkedin {
+    padding: 8px 10px;
+}
+
+/* * * * * * * * */
+
+#team .customTitle {
+    font-size: 40px;
+    letter-spacing: .035em;
+    display: block;
+}
+
+#team #teamRowContainer .customTitle {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#team .customParagraph {
+    font-size: 16px;
+    line-height: 1.9;
+    display: block;
+}
+
+#team #teamRowContainer .customLink,
+#team #teamRowContainer .customParagraph {
+    font-size: 14px;
+    line-height: normal;
+    color: black
+}
+
+#team .customLink {
+    color: black;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+}
+
+#team .teamImageBg .customLink {
+    color: white;
+}
+
+#team .customLink:hover {
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+#team .customIcon {
+    font-size: 30px;
+}
+
+#team .customTitle,
+#team .customParagraph,
+#team .customLink,
+#team .customIcon,
+#team .customButton,
+#team .customImage,
+#team .customEmbed {
+    margin: 10px 0;
+}
+
+#team #teamTitleWrap .customIcon,
+#team #teamTitleWrap .customButton,
+#team #teamTitleWrap .customImage,
+#team #teamParagraphWrap .customTitle,
+#team #teamParagraphWrap .customParagraph,
+#team #teamParagraphWrap .customLink,
+#team #teamParagraphWrap .customIcon,
+#team #teamParagraphWrap .customButton,
+#team #teamParagraphWrap .customImage,
+#team #teamParagraphWrap .customEmbed,
+#team .teamMemberNameWrap .customIcon,
+#team .teamMemberNameWrap .customButton,
+#team .teamMemberNameWrap .customImage,
+#team .teamMemberTitleWrap .customIcon,
+#team .teamMemberTitleWrap .customButton,
+#team .teamMemberTitleWrap .customImage,
+#team .teamMemberTextWrap .customTitle,
+#team .teamMemberTextWrap .customParagraph,
+#team .teamMemberTextWrap .customLink,
+#team .teamMemberTextWrap .customIcon,
+#team .teamMemberTextWrap .customButton,
+#team .teamMemberTextWrap .customImage,
+#team .teamMemberTextWrap .customEmbed {
+    margin: 0;
+}
+
+#team #teamTitleHrWrap .customIcon,
+#team #teamTitleHrWrap .customButton,
+#team #teamTitleHrWrap .customImage {
+    margin: 0 0 10px;
+}
+
+#team .teamMemberImage .customTitle,
+#team .teamMemberImage .customParagraph,
+#team .teamMemberImage .customLink,
+#team .teamMemberImage .customIcon,
+#team .teamMemberImage .customButton,
+#team .teamMemberImage .customImage,
+#team .teamMemberImage customEmbed {
+    margin: 10px 0 0;
+}
+
+#team .teamIconRow .customIcon {
+    color: rgb(228,77,62);
+}
+
+#team .teamIconRow .customTitle,
+#team .teamIconRow .customParagraph,
+#team .teamIconRow .customLink,
+#team .teamIconRow .customIcon,
+#team .teamIconRow .customButton,
+#team .teamIconRow .customImage,
+#team .teamIconRow customEmbed {
+    margin: 20px 0 0;
+}
+
+@media only screen and (max-width : 1050px) {
+
+    .teamMemberTitle {
+        margin-top: 10px;
+    }
+
+    .teamIconRow {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width : 991px) {
+
+    .team2 {
+        display: initial;
+    }
+}
+
+@media only screen and (max-width : 767px) {
+
+    #teamTitle {
+        font-size: 36px;
+    }
+
+    .teamMemberRow {
+        display: table;
+    }
+
+    .teamMemberImages {
+        height: auto;
+    }
+
+    .teamMemberName {
+        margin-top: 12px;
+        font-size: 16px;
+    }
+
+    .teamMemberTitle {
+        font-size: 12px;
+    }
+
+    .teamIcon {
+        font-size: 10px;
+    }
+
+    #team #teamRowContainer .customTitle {
+        font-size: 12px;
+    }
+}
+
+#teamContainer {
+    background: rgb(255,255,255);
+}
+
+
+#blog {
+    color: black;
+    word-break: break-word;
+}
+
+#blog .blogImageBg {
+    color: white;
+}
+
+#blogContent {
+    text-align: center;
+    word-break: break-word;
+}
+
+#noPostBlog {
+    margin-top: 60px;
+}
+
+#noPostBlogTitle {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.noPostBlogHr {
+    border: 2px solid black;
+    width: 10%;
+}
+
+#blog .blogImageBg .noPostBlogHr {
+    border-color: white;
+}
+
+#blogTitleWrap {
+    margin-bottom: 30px;
+}
+
+#blogTitle {
+    font-size: 45px;
+    margin: 10px 0;
+}
+
+.posts3 {
+    display: flex;
+}
+
+.blogPostLinkWrap {
+    width: 100%;
+    text-decoration: none !important;
+}
+
+.postOuter {
+    margin-top: 30px;
+}
+
+.blogRow {
+    display: flex;
+    margin: 1px;
+    box-shadow: 0 0 6px black;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#blog .blogImageBg .blogRow {
+    box-shadow: 0 0 6px white;
+}
+
+.blogRow:hover {
+    box-shadow: 0 0 12px black;
+}
+
+#blog .blogImageBg .blogRow:hover {
+    box-shadow: 0 0 12px white;
+}
+
+.blogImageOuter {
+    padding: 0;
+}
+
+.blogImages {
+    width: 135px;
+    height: 135px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#blog .blogImageBg .blogImages {
+    border: 1px solid white;
+}
+
+.postTitle {
+    color: black;
+    text-align: left;
+    font-size: 20px;
+    margin: 10px 10px 10px 0;
+    text-decoration: none !important;
+}
+
+#blog .blogImageBg .postTitle {
+    color: white;
+}
+
+/* * * * * * * * */
+
+#blog .customTitle {
+    font-size: 45px;
+    display: block;
+}
+
+#blog #noPostBlog .customTitle {
+    font-size: 35px;
+}
+
+#blog .customParagraph {
+    font-size: 20px;
+    display: block;
+}
+
+#blog .customLink {
+    color: black;
+    font-size: 20px;
+    display: block;
+    width: 100%;
+}
+
+#blog .blogImageBg .customLink {
+    color: white;
+}
+
+#blog .customLink:hover {
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+#blog .customIcon {
+    font-size: 36px;
+}
+
+#blog .customTitle,
+#blog .customParagraph,
+#blog .customLink,
+#blog .customIcon,
+#blog .customButton,
+#blog .customImage,
+#blog .customEmbed {
+    margin: 10px 0;
+}
+
+#blog #noPostBlog .customIcon,
+#blog #noPostBlog .customButton,
+#blog #noPostBlog .customImage {
+    margin: 0;
+}
+
+@media only screen and (max-width : 1220px) {
+
+    .blogImages {
+        width: 110px;
+        height: 110px;
+    }
+
+    .postTitle {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width : 991px) {
+
+    .posts3 {
+        display: initial;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width : 767px) {
+
+    .postTitle {
+        font-size: 16px;
+    }
+
+    #noPostBlogTitle {
+        font-size: 25px;
+    }
+
+    .postTitleOuter {
+        padding-right: 0;
+    }
+}
+
+#blogContainer {
+    background: url('/img/clothing-xcCqc-hTp8a-1Fb8q-2TYs5-HZ9aE.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+#contact {
+    color: black;
+}
+
+#contact .contactImageBg {
+    color: white;
+}
+
+#contactContent {
+    word-wrap: break-word;
+    padding-top: 0 !important;
+    background-color: rgb(228,77,62);
+    color: white;
+}
+
+#contact .contactImageBg #contactContent {
+    background-color: rgba(228,77,62,0.3);
+}
+
+#contactTop {
+    text-align: center;
+}
+
+#contactTitleWrap {
+    margin: 70px 0;
+}
+
+#contactTitle {
+    font-size: 50px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+#contactMainRow {
+    display: flex;
+}
+
+.contactInfoText {
+    font-size: 16px;
+    letter-spacing: .07em;
+}
+
+#contactAddress1,
+#contactAddress2,
+#contactEmailInner,
+#contactPhoneInner {
+    margin-bottom: 0;
+}
+
+#contactAddressOuter {
+    margin-bottom: 30px;
+}
+
+.contactFormInput {
+    border-radius: 0;
+    border-radius: 3px;
+    color: rgb(228,77,62);
+}
+
+.contactFormInput::placeholder {
+    color: rgb(228,77,62);
+}
+
+#contactMessage {
+    height: 80px;
+    resize: none;
+}
+
+#contactButtons {
+    text-align: right;
+    margin: 5px 0 0;
+}
+
+.contactButton {
+    color: rgb(228,77,62);
+    padding: 6px 42px;
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid rgb(228,77,62);
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.5s;
+    display: inline-block;
+}
+
+.contactButton:focus {
+    color: rgb(228,77,62);
+}
+
+.contactButton:hover {
+    color: white;
+    background-color: rgb(228,77,62);
+    border: 1px solid white;
+    text-decoration: none;
+}
+
+#contactIconWrap {
+    margin-top: 30px;
+}
+
+.contactIcon {
+    font-size: 20px;
+    color: white;
+    display: inline;
+    border-radius: 50%;
+    margin-right: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contactIcon:hover {
+    opacity: 0.6;
+}
+
+/* * * * * * * * */
+
+#contact .customTitle {
+    font-size: 40px;
+    letter-spacing: .1em;
+    display: block;
+}
+
+#contact .customParagraph {
+    font-size: 16px;
+    letter-spacing: .07em;
+    display: block;
+}
+
+#contact .customLink {
+    color: black;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+}
+
+#contact .contactImageBg .customLink  {
+    color: white;
+}
+
+#contact .customLink:hover {
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+#contact .customIcon {
+    font-size: 30px;
+}
+
+#contact .customTitle,
+#contact .customParagraph,
+#contact .customLink,
+#contact .customIcon,
+#contact .customButton,
+#contact .customImage,
+#contact .customEmbed {
+    margin: 10px 0;
+}
+
+#contact #contactTitleWrap .customIcon,
+#contact #contactTitleWrap .customButton,
+#contact #contactTitleWrap .customImage {
+    margin: 0 0 10px;
+}
+
+@media only screen and (max-width : 767px) {
+
+    #contactTitleWrap {
+        margin-bottom: 30px;
+    }
+
+    #contactTitle,
+    #contact .customTitle {
+        font-size: 30px;
+    }
+
+    #contactMainRow {
+        display: initial;
+    }
+
+    #contactInfoWrap {
+        text-align: center;
+    }
+
+    .contactIcon {
+        margin: 0 10px;
+    }
+
+    #contactRowContainer {
+        margin-top: 40px;
+    }
+
+    #contactButtons {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+}
+
+
+#contactContainer {
+    background: rgb(255,255,255);
+}
+
+
+#contact {
+    color: black;
+}
+
+#contact .contactImageBg {
+    color: white;
+}
+
+#contactContent {
+    word-wrap: break-word;
+    padding-top: 0 !important;
+    background-color: rgb(228,77,62);
+    color: white;
+}
+
+#contact .contactImageBg #contactContent {
+    background-color: rgba(228,77,62,0.3);
+}
+
+#contactTop {
+    text-align: center;
+}
+
+#contactTitleWrap {
+    margin: 70px 0;
+}
+
+#contactTitle {
+    font-size: 50px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+#contactMainRow {
+    display: flex;
+}
+
+.contactInfoText {
+    font-size: 16px;
+    letter-spacing: .07em;
+}
+
+#contactAddress1,
+#contactAddress2,
+#contactEmailInner,
+#contactPhoneInner {
+    margin-bottom: 0;
+}
+
+#contactAddressOuter {
+    margin-bottom: 30px;
+}
+
+.contactFormInput {
+    border-radius: 0;
+    border-radius: 3px;
+    color: rgb(228,77,62);
+}
+
+.contactFormInput::placeholder {
+    color: rgb(228,77,62);
+}
+
+#contactMessage {
+    height: 80px;
+    resize: none;
+}
+
+#contactButtons {
+    text-align: right;
+    margin: 5px 0 0;
+}
+
+.contactButton {
+    color: rgb(228,77,62);
+    padding: 6px 42px;
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid rgb(228,77,62);
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.5s;
+    display: inline-block;
+}
+
+.contactButton:focus {
+    color: rgb(228,77,62);
+}
+
+.contactButton:hover {
+    color: white;
+    background-color: rgb(228,77,62);
+    border: 1px solid white;
+    text-decoration: none;
+}
+
+#contactIconWrap {
+    margin-top: 30px;
+}
+
+.contactIcon {
+    font-size: 20px;
+    color: white;
+    display: inline;
+    border-radius: 50%;
+    margin-right: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contactIcon:hover {
+    opacity: 0.6;
+}
+
+/* * * * * * * * */
+
+#contact .customTitle {
+    font-size: 40px;
+    letter-spacing: .1em;
+    display: block;
+}
+
+#contact .customParagraph {
+    font-size: 16px;
+    letter-spacing: .07em;
+    display: block;
+}
+
+#contact .customLink {
+    color: black;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+}
+
+#contact .contactImageBg .customLink  {
+    color: white;
+}
+
+#contact .customLink:hover {
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+#contact .customIcon {
+    font-size: 30px;
+}
+
+#contact .customTitle,
+#contact .customParagraph,
+#contact .customLink,
+#contact .customIcon,
+#contact .customButton,
+#contact .customImage,
+#contact .customEmbed {
+    margin: 10px 0;
+}
+
+#contact #contactTitleWrap .customIcon,
+#contact #contactTitleWrap .customButton,
+#contact #contactTitleWrap .customImage {
+    margin: 0 0 10px;
+}
+
+@media only screen and (max-width : 767px) {
+
+    #contactTitleWrap {
+        margin-bottom: 30px;
+    }
+
+    #contactTitle,
+    #contact .customTitle {
+        font-size: 30px;
+    }
+
+    #contactMainRow {
+        display: initial;
+    }
+
+    #contactInfoWrap {
+        text-align: center;
+    }
+
+    .contactIcon {
+        margin: 0 10px;
+    }
+
+    #contactRowContainer {
+        margin-top: 40px;
+    }
+
+    #contactButtons {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+}
+
+#contactContainer {
+    background: rgb(255,255,255);
+}
+
+
+
+#newsLetterOuter {
+    word-break: break-word;
+}
+
+#closeNewsletterButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    font-size: 20px;
+    background: transparent;
+    cursor: pointer;
+    color: black;
+    transition: 0.4s;
+}
+
+#closeNewsletterButton:hover {
+    opacity: 0.6;
+} 
+
+#newsOverlaySection {
+    display: table;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    text-align: center;
+}
+
+#newsletterBorder {
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 0 6px -1px white;
+}
+
+#newsletterTitle {
+    font-size: 40px;
+    margin: 50px 0 30px;
+    color: black;
+    width: 100%;
+}
+
+.newsletterHrs {
+    border: 2px solid black;
+    width: 15%;
+    margin: 10px auto;
+}
+
+.newsletterSubtitles {
+    color: rgba(0,0,0,0.7);
+    font-size: 16px;
+    margin: 0;
+}
+
+.newsletterIcon {
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+#newsletterInput {
+    font-size: 12px;
+    width: 50%;
+    margin: 10px auto 0;
+    text-align: center;
+    letter-spacing: .1em;
+    border-color: black;
+    border-radius: 2px;
+    color: black;
+}
+
+#newsletterInput::placeholder {
+    color: black;
+}
+
+#newsletterInput:focus {
+    box-shadow: 0 0 3px black;
+}
+
+#newsletterButton {
+    color: white;
+    font-size: 18px;
+    padding: 6px 48px;
+    margin-top: 10px;
+    text-decoration: none;
+    background: rgba(0,0,0,0.7);
+    border-radius: 30px;
+    letter-spacing: .1em;
+    cursor: pointer;
+    transition: 0.5s;
+    display: inline-block;
+}
+
+#newsletterButton:focus {
+    color: white;
+}
+
+#newsletterButton:hover {
+    background: black;
+}
+
+#newsletterSubtitle3 {
+    font-size: 14px;
+    margin: 30px 0;
+    letter-spacing: 0.1em;
+}
+
+/* * * * * * * * */
+
+#newsletterOuter .customTitle {
+    font-size: 40px;
+    display: block;
+}
+
+#newsletterOuter .customParagraph {
+    font-size: 18px;
+    display: block;
+}
+
+#newsletterOuter .customLink {
+    color: black;
+    font-size: 18px;
+    display: block;
+    width: 100%;
+}
+
+#newsletterOuter .customLink:hover {
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+#newsletterOuter .customIcon {
+    font-size: 28px;
+}
+
+#newsletterOuter .customTitle,
+#newsletterOuter .customParagraph,
+#newsletterOuter .customLink,
+#newsletterOuter .customIcon,
+#newsletterOuter .customButton,
+#newsletterOuter .customImage,
+#newsletterOuter .customEmbed {
+    margin: 10px 0;
+}
+
+@media only screen and (max-width : 950px) {
+
+    #newsletterInput {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width : 767px) {
+
+    #closeNews {
+        right: 20px;
+        top: 20px;
+    }
+
+    #newsletterTitle {
+        font-size: 35px;
+    }
+
+    #newsletterSubtitle {
+        font-size: 14px;
+    }
+
+    #newsletterInput {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width : 500px) {
+
+    #newsletterInput {
+        width: 90%;
+    }
+}
+
+#contactContainer {
+    background: rgb(255,255,255);
+}
+
+#blogContainer {
+background: url('/img/clothing-xcCqc-hTp8a-1Fb8q-2TYs5-HZ9aE.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+
+
+#newsLetterOuter {
+    word-break: break-word;
+}
+
+#closeNewsletterButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    font-size: 20px;
+    background: transparent;
+    cursor: pointer;
+    color: black;
+    transition: 0.4s;
+}
+
+#closeNewsletterButton:hover {
+    opacity: 0.6;
+} 
+
+#newsOverlaySection {
+    display: table;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    text-align: center;
+}
+
+#newsletterBorder {
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 0 6px -1px white;
+}
+
+#newsletterTitle {
+    font-size: 40px;
+    margin: 50px 0 30px;
+    color: black;
+    width: 100%;
+}
+
+.newsletterHrs {
+    border: 2px solid black;
+    width: 15%;
+    margin: 10px auto;
+}
+
+.newsletterSubtitles {
+    color: rgba(0,0,0,0.7);
+    font-size: 16px;
+    margin: 0;
+}
+
+.newsletterIcon {
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+#newsletterInput {
+    font-size: 12px;
+    width: 50%;
+    margin: 10px auto 0;
+    text-align: center;
+    letter-spacing: .1em;
+    border-color: black;
+    border-radius: 2px;
+    color: black;
+}
+
+#newsletterInput::placeholder {
+    color: black;
+}
+
+#newsletterInput:focus {
+    box-shadow: 0 0 3px black;
+}
+
+#newsletterButton {
+    color: white;
+    font-size: 18px;
+    padding: 6px 48px;
+    margin-top: 10px;
+    text-decoration: none;
+    background: rgba(0,0,0,0.7);
+    border-radius: 30px;
+    letter-spacing: .1em;
+    cursor: pointer;
+    transition: 0.5s;
+    display: inline-block;
+}
+
+#newsletterButton:focus {
+    color: white;
+}
+
+#newsletterButton:hover {
+   background: black;
+}
+
+#newsletterSubtitle3 {
+    font-size: 14px;
+    margin: 30px 0;
+    letter-spacing: 0.1em;
+}
+
+/* * * * * * * * */
+
+#newsletterOuter .customTitle {
+    font-size: 40px;
+    display: block;
+}
+
+#newsletterOuter .customParagraph {
+    font-size: 18px;
+    display: block;
+}
+
+#newsletterOuter .customLink {
+    color: black;
+    font-size: 18px;
+    display: block;
+    width: 100%;
+}
+
+#newsletterOuter .customLink:hover {
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+#newsletterOuter .customIcon {
+    font-size: 28px;
+}
+
+#newsletterOuter .customTitle,
+#newsletterOuter .customParagraph,
+#newsletterOuter .customLink,
+#newsletterOuter .customIcon,
+#newsletterOuter .customButton,
+#newsletterOuter .customImage,
+#newsletterOuter .customEmbed {
+    margin: 10px 0;
+}
+
+@media only screen and (max-width : 950px) {
+
+    #newsletterInput {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width : 767px) {
+
+    #closeNews {
+        right: 20px;
+        top: 20px;
+    }
+
+    #newsletterTitle {
+        font-size: 35px;
+    }
+
+    #newsletterSubtitle {
+        font-size: 14px;
+    }
+
+    #newsletterInput {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width : 500px) {
+
+    #newsletterInput {
+        width: 90%;
+    }
+}
